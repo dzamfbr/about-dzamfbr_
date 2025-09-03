@@ -55,9 +55,8 @@ if (form) {
 
     // Buat pesan otomatis
     let message = 
-      "Halo, saya " + nama + "%0A" +        // %0A = enter (line break)
+      "Hallo zam, saya " + nama + "%0A" +      
       "Pesan: " + pesan + "%0A" +
-      "Nomor HP: " + nomer;
 
     // Nomor WhatsApp kamu
     let url = "https://wa.me/6287788722325?text=" + message;
@@ -65,4 +64,5 @@ if (form) {
     // Buka WhatsApp
     window.open(url, '_blank').focus();
   });
+
 }
